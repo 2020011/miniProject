@@ -25,7 +25,6 @@ public class ReservationInfoTest {
 		List<Reservation> reservation= new ArrayList<Reservation>();
 		reservation.addAll(this.reservationInfo.get_reservation());
 		
-		//assertThat(reservation.get(0).get_reser_num(),is(0));
 		assertThat(reservation.get(0).get_reser_user_name(),is("柴犬"));
 		assertThat(reservation.get(0).get_reser_name(),is("演劇"));
 		assertThat(reservation.get(0).get_reser_date(),is("2020-06-05"));
@@ -45,13 +44,11 @@ public class ReservationInfoTest {
 		List<Reservation> reservation= new ArrayList<Reservation>();
 		reservation.addAll(this.reservationInfo.get_reservation());
 		
-		//assertThat(reservation.get(0).get_reser_num(),is(0));
 		assertThat(reservation.get(0).get_reser_user_name(),is("柴犬"));
 		assertThat(reservation.get(0).get_reser_name(),is("演劇"));
 		assertThat(reservation.get(0).get_reser_date(),is("2020-06-05"));
 		assertThat(reservation.get(0).get_reser_num_pur(),is(20));
 		
-		//assertThat(reservation.get(1).get_reser_num(),is(0));
 		assertThat(reservation.get(1).get_reser_user_name(),is("柴犬"));
 		assertThat(reservation.get(1).get_reser_name(),is("演奏会"));
 		assertThat(reservation.get(1).get_reser_date(),is("2020-06-05"));
@@ -71,19 +68,16 @@ public class ReservationInfoTest {
 		List<Reservation> reservation= new ArrayList<Reservation>();
 		reservation.addAll(this.reservationInfo.get_reservation());
 		
-		//assertThat(reservation.get(0).get_reser_num(),is(0));
 		assertThat(reservation.get(0).get_reser_user_name(),is("柴犬"));
 		assertThat(reservation.get(0).get_reser_name(),is("演劇"));
 		assertThat(reservation.get(0).get_reser_date(),is("2020-06-05"));
 		assertThat(reservation.get(0).get_reser_num_pur(),is(20));
 		
-		//assertThat(reservation.get(1).get_reser_num(),is(0));
 		assertThat(reservation.get(1).get_reser_user_name(),is("柴犬"));
 		assertThat(reservation.get(1).get_reser_name(),is("演奏会"));
 		assertThat(reservation.get(1).get_reser_date(),is("2020-06-05"));
 		assertThat(reservation.get(1).get_reser_num_pur(),is(10));
 		
-		//assertThat(reservation.get(2).get_reser_num(),is(0));
 		assertThat(reservation.get(2).get_reser_user_name(),is("柴犬"));
 		assertThat(reservation.get(2).get_reser_name(),is("セミナ-"));
 		assertThat(reservation.get(2).get_reser_date(),is("2020-06-05"));
